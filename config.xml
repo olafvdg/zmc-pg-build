@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.brinkerink.zmc"
+    version   = "2.0">
+
+<name>ZMC</name>
+
+<description>
+</description>
+
+<author href="http://www.zuurstof.nl" email="info@zuurstof.nl">
+Zuurstof B.V.
+</author>
+
+<icon src="resources/icons/zmc_app_72x72.png" />
+
+<icon src="resources/icons/zmc_app_57x57.png" width="57" height="57" />
+<icon src="resources/icons/zmc_app_72x72.png" gap:platform="ios" width="72" height="72" />
+<icon src="resources/icons/zmc_app_114x114.png" width="114" height="114" />
+
+<icon src="resources/icons/zmc_app_48x48.png" gap:platform="android" gap:density="mdpi" />
+<icon src="resources/icons/zmc_app_72x72.png" gap:platform="android" gap:density="hdpi" />
+<icon src="resources/icons/zmc_app_96x96.png" gap:platform="android" gap:density="xhdpi" />
+
+<gap:splash src="resources/splash/splash_mdpi.png"  gap:platform="android" gap:density="mdpi" />
+<gap:splash src="resources/splash/splash_hdpi.png"  gap:platform="android" gap:density="hdpi" />
+<gap:splash src="resources/splash/splash_xhdpi.png"  gap:platform="android" gap:density="xhdpi" />
+
+<gap:splash src="resources/splash/splash.png"    gap:platform="ios"     width="768" height="1024" />
+
+<preference name="orientation" value="portrait" />
+<preference name="target-device" value="handset" />
+<preference name="webviewbounce" value="false" />
+
+<feature name="http://api.phonegap.com/1.0/network"/>
+
+</widget>

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html manifest="" lang="en-US">
+<head>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <meta charset="UTF-8">
+    <title>ZMC</title>
+<style type="text/css">
+        html, body {
+            height: 100%;
+            background-color: #fff
+        }
+        #appLoadingIndicator {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            text-align: center;
+            width: 100%;
+            height: 30px;
+            -webkit-animation-name: appLoadingIndicator;
+            -webkit-animation-duration: 1s;
+            -webkit-animation-iteration-count: infinite;
+            -webkit-animation-direction: linear;
+        }
+        #appLoadingIndicator > * {
+            background-color: #FFFFFF;
+            display: inline-block;
+            height: 50px;
+            margin: 0 5px;
+            width: 144px;
+            opacity: 0.8;
+        }
+        @-webkit-keyframes appLoadingIndicator{
+            0% {
+                opacity: 0.8
+            }
+            50% {
+                opacity: 0
+            }
+            100% {
+                opacity: 0.8
+            }
+        }
+</style>
+
+    <!-- The line below must be kept intact for Sencha Command to build your application -->
+    <script type="text/javascript">(function(h){function f(c,d){document.write('<meta name="'+c+'" content="'+d+'">')}if("undefined"===typeof g)var g=h.Ext={};g.blink=function(c){var d=c.js||[],c=c.css||[],b,e,a;f("viewport","width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no");f("apple-mobile-web-app-capable","yes");f("apple-touch-fullscreen","yes");b=0;for(e=c.length;b<e;b++)a=c[b],"string"!=typeof a&&(a=a.path),document.write('<link rel="stylesheet" href="'+a+'">');b=0;for(e=d.length;b<
+e;b++)a=d[b],"string"!=typeof a&&(a=a.path),document.write('<script src="'+a+'"><\/script>')}})(this);;Ext.blink({"id":"91d7d9b0-aeed-11e1-94b1-2306a7072276","js":[{"update":"delta","path":"app.js","type":"js","bundle":true}],"css":[{"update":"delta","type":"css","path":"resources/css/app.css"}]})</script>
+</head>
+<body>
+    <div id="appLoadingIndicator">
+        <div><img  width="144" height="50" src="data:image/gif;base64,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%3D%3D"/></div>
+    </div>
+</body>
+</html>
