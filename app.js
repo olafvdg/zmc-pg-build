@@ -3,7 +3,7 @@
 /**
  * @class Ext
  * @singleton
- */
+ */ 
 (function() {
     var global = this,
         objectPrototype = Object.prototype,
