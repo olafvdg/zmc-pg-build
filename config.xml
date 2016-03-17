@@ -35,11 +35,6 @@ Zuurstof B.V.
      <application android:debuggable="true" />
 </gap:config-file>
 
-
-<gap:config-file platform="android" parent="/manifest">
-     <application android:debuggable="true" />
-</gap:config-file>
-
 <preference name="orientation" value="portrait" />
 <preference name="target-device" value="handset" />
 <preference name="webviewbounce" value="false" />
