@@ -47,4 +47,12 @@ Zuurstof B.V.
 <feature name="http://api.phonegap.com/1.0/network"/>
 <access origin="*" />
 
+<access origin="http://*.phonegap.com" subdomains="true" />
+<access origin="*://*.googleapis.com/*" subdomains="true" />
+<access origin="*://*.gstatic.com/*" subdomains="true" />
+<access origin="*://*.google.com/*" subdomains="true" />
+<access origin="*://*.googleusercontent.com/*" subdomains="true" />
+
+<plugin name="cordova-plugin-whitelist" />
+
 </widget>
