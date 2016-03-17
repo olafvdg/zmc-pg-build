@@ -30,6 +30,10 @@ Zuurstof B.V.
 
 <gap:splash src="resources/splash/splash.png"    gap:platform="ios"     width="768" height="1024" />
 
+<gap:config-file platform="android" parent="/manifest">
+     <application android:debuggable="true" />
+</gap:config-file>
+
 <preference name="orientation" value="portrait" />
 <preference name="target-device" value="handset" />
 <preference name="webviewbounce" value="false" />
