@@ -4,7 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     id        = "com.brinkerink.zmc"
     version   = "2.2"
-	versionCode = "201603171139" >
+	versionCode = "201603171148" >
 
 <gap:config-file platform="android" parent="/manifest">
      <application android:debuggable="true" />
@@ -38,6 +38,8 @@ Zuurstof B.V.
 <preference name="orientation" value="portrait" />
 <preference name="target-device" value="handset" />
 <preference name="webviewbounce" value="false" />
+
+<preference name="phonegap-version" value="cli-5.1.0" />
 
 <feature name="http://api.phonegap.com/1.0/network"/>
 <access origin="*" />
