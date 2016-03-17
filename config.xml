@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
 	xmlns:gap = "http://phonegap.com/ns/1.0"
+	xmlns:android = "http://schemas.android.com/apk/res/android"
 	id = "com.brinkerink.zmc"
 	version   = "2.2"
-	versionCode = "201603171148" >
+	versionCode = "201603171216" >
 
 <name>ZMC</name>
 
@@ -29,6 +30,15 @@ Zuurstof B.V.
 <gap:splash src="resources/splash/splash_xhdpi.png"  gap:platform="android" gap:density="xhdpi" />
 
 <gap:splash src="resources/splash/splash.png"    gap:platform="ios"     width="768" height="1024" />
+
+<gap:config-file platform="android" parent="/manifest">
+     <application android:debuggable="true" />
+</gap:config-file>
+
+
+<gap:config-file platform="android" parent="/manifest">
+     <application android:debuggable="true" />
+</gap:config-file>
 
 <preference name="orientation" value="portrait" />
 <preference name="target-device" value="handset" />
