@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns = "http://www.w3.org/ns/widgets"
-    xmlns:gap = "http://phonegap.com/ns/1.0"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    id        = "com.brinkerink.zmc"
-    version   = "2.2"
+	xmlns:gap = "http://phonegap.com/ns/1.0"
+	xmlns:android = "http://schemas.android.com/apk/res/android"
+	id = "com.brinkerink.zmc"
+	version   = "2.2"
 	versionCode = "201603171148" >
 
 <gap:config-file platform="android" parent="/manifest">
@@ -38,8 +38,6 @@ Zuurstof B.V.
 <preference name="orientation" value="portrait" />
 <preference name="target-device" value="handset" />
 <preference name="webviewbounce" value="false" />
-
-<preference name="phonegap-version" value="cli-5.1.1" />
 
 <feature name="http://api.phonegap.com/1.0/network"/>
 <access origin="*" />
