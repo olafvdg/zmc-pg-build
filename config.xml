@@ -6,10 +6,6 @@
 	version   = "2.2"
 	versionCode = "201603171148" >
 
-<gap:config-file platform="android" parent="/manifest">
-     <application android:debuggable="true" />
-</gap:config-file>
-
 <name>ZMC</name>
 
 <description>
