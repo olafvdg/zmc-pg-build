@@ -39,7 +39,7 @@ Zuurstof B.V.
 <preference name="target-device" value="handset" />
 <preference name="webviewbounce" value="false" />
 
-<preference name="phonegap-version" value="cli-5.1.0" />
+<preference name="phonegap-version" value="cli-5.1.1" />
 
 <feature name="http://api.phonegap.com/1.0/network"/>
 <access origin="*" />
